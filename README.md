@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Sobre esse projeto: 
+> ### Se você está aqui para consultar React  👇:
+> - Projeto melhorado e com novos recursos sobre consumo de API do projeto [Projeto com API de Filmes](https://github.com/DFMaia/react-filmes).
+> - API para uso: https://sujeitoprogramador.com/r-api/?api=filmes/
+> - É preciso executar o comando `yarn add react-router-dom`
+> - Nesse projeto, ao invés de usar o `fetch` para fazer a requisição HTTP da API, como foi feito no `Projeto Filmes`, aqui usei a biblioteca `axios`. É preciso instalar executando o comando `yarn add axios`.
+> - Também foi instalado o pacote `react-toastify`. Funciona como `alert` estilizado, executando uma animação de uma notificação do Mac. `Success` tem a notificação verde e o `notify`, azul. Para instalar, basta executar o mesmo comando do `yarn`. 
+> 
+> ### Se você está aqui para estudar  👇:
+> 
+> É uma continuação de alguns projetos anteriores:
+> > _**Projetos Anteriores:**_
+> > 
+> > - [Princípio Básico de JavaScript](https://github.com/DFMaia/PrincipiosBasicosJavaScript)
+> > - [Meu Primeiro projeto React](https://github.com/DFMaia/primeiro-projeto-react)
+> > - [Primeiro Projeto React consumindo uma API](https://github.com/DFMaia/react-api/tree/master/src)
+> > - [Projeto de Lista de tarefas](https://github.com/DFMaia/react-todo-project)
+> > - [Projeto Rotas/Paginação](https://github.com/DFMaia/react-rotas)
+> > - [Projeto com API de Filmes](https://github.com/DFMaia/react-filmes)
+> > - [Fluxo de Rotas com Autenticação](https://github.com/DFMaia/react-fluxo-rotas-autenticacao)
+> > - [Projeto Styled](https://github.com/DFMaia/react-styled-component)
+> 
+> > _**Próximo Projeto:**_
+> > - [Fazendo Deploy de um Projeto.](https://github.com/DFMaia/react-fazendo-deploy)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Sobre os links:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> -   Sobre  [Princípio Básico de JavaScript](https://github.com/DFMaia/PrincipiosBasicosJavaScript)  oferece um overview básico sobre JS.
+>     
+> -   Sobre o  [Meu Primeiro projeto React](https://github.com/DFMaia/primeiro-projeto-react): Cada commit possui um exemplo diferente de código com soluções de problemas diferentes.
+>     
+> -   No README há uma explicação das instalções necessárias para se fazer tal projeto e o passo a passo de como inicializar um projeto React.
+>     
+> -   Sobre o  [Primeiro Projeto React consumindo uma API](https://github.com/DFMaia/react-api/tree/master/src): aplica todo co conhecimento adotado consumindo uma API.
+>     
+> -   [Projeto de Lista de tarefas](https://github.com/DFMaia/react-todo-project): Continua o conhecimento dos links anteriores (sem abordar consumo de API) e reforça o conhecimento de classes.
+>
+> - [Projeto Rotas/Paginação](https://github.com/DFMaia/react-rotas): Projeto sobre link de paginação. 
+> - [Projeto com API de Filmes](https://github.com/DFMaia/react-filmes): Consome uma API com Sinopse de filmes, imagens, etc e renderiza uma paginação diferente para cada ID consmido na API.
+> - [Fluxo de Rotas com Autenticação](https://github.com/DFMaia/react-fluxo-rotas-autenticacao) é um projeto que simula um usuário que só pode acessar uma página se estiver autenticado. 
+> - [Projeto Styled](https://github.com/DFMaia/react-styled-component): Elimina a necessidade de um arquivo `.css` subistituindo por um arquivo `.js`. Aceita pequenas funções e permite que o usuário altere o design da página.
